@@ -1,0 +1,49 @@
+.navbar .layout {
+  margin: auto;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  padding: 30px 0;
+}
+
+.navbar .me a {
+  color: greenyellow;
+  font-size: 30px;
+  font-weight: 500;
+  float: left;
+  padding-left: 50px;
+}
+
+.navbar .me a:hover {
+  color: aqua;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.5);
+}
+
+.navbar .layout {
+  display: flex;
+  align-items: center;
+  float: right;
+  padding-right: 100px;
+}
+
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+
+.navbar .menu a {
+  display: block;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 30px;
+}
+
+.navbar .menu a:hover {
+  color: aqua;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.5);
+}

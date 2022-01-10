@@ -1,0 +1,37 @@
+.home {
+  display: flex;
+  height: 100vh;
+}
+
+.home .layout {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  color: white;
+  padding: 100px 0 0 100px;
+}
+
+.home .intro {
+  text-align: center;
+}
+
+.home .intro .intro1 {
+  font-size: 50px;
+}
+
+.home .intro .intro2 {
+  font-size: 100px;
+  color: greenyellow;
+}
+
+.home .intro .intro3 {
+  font-size: 50px;
+}
+
+.home .intro .intro4 {
+  font-size: 50px;
+}
+
+.home .intro .intro5 {
+  font-size: 50px;
+}

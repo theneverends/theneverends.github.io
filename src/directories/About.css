@@ -1,0 +1,49 @@
+.about {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  padding: 200px 0 0 0px;
+  text-align: center;
+  font-size: 30px;
+  color: greenyellow;
+  width: 40%;
+}
+
+.about .about-left p {
+  width: 40%;
+  padding: 0 0 0 50px;
+  text-align: left;
+  color: white;
+  justify-content: center;
+}
+
+.about button {
+  background: red;
+  font-size: 20px;
+  margin: 50px 0 0 120px;
+  padding: 20px;
+  color: red;
+}
+
+.about button a {
+  background: red;
+  color: black;
+  font-weight: 500;
+}
+
+.about button :hover {
+  background: red;
+  color: white;
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.5);
+}
+
+.about .about-right img {
+  width: 600px;
+  height: 600px;
+  float: right;
+  object-fit: cover;
+}

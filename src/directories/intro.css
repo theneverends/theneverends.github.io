@@ -1,0 +1,60 @@
+.introduction {
+  display: flex;
+  height: 100vh;
+  background-color: aqua;
+}
+
+.left {
+  flex: 1;
+}
+
+.right {
+  flex: 1;
+}
+
+.left-area {
+  padding: 50px;
+}
+
+.intro {
+  font-size: 40px;
+}
+
+.name {
+  font-size: 50px;
+}
+
+.roles {
+  height: 50px;
+  overflow: hidden;
+}
+
+.role-area {
+  height: 100vh;
+  animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+  25% {
+    transform: translateY(-50px);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  75% {
+    transform: translateY(-150px);
+  }
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.role {
+  display: flex;
+  height: 50px;
+  font-size: 40px;
+  font-weight: bold;
+  color: gold;
+  background-color: blue;
+  align-items: center;
+}
