@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/theneverends.github.io/static/css/main.aca9216e.css",
-    "main.js": "/theneverends.github.io/static/js/main.15288f2f.js",
+    "main.js": "/theneverends.github.io/static/js/main.bcebe273.js",
     "static/js/787.d302bc05.chunk.js": "/theneverends.github.io/static/js/787.d302bc05.chunk.js",
+    "static/media/me.png": "/theneverends.github.io/static/media/me.f22baadaece5b3f244a5.png",
     "static/media/bg.png": "/theneverends.github.io/static/media/bg.dbfc19c605ce7fa7af16.png",
+    "static/media/Ricky_Wang_Resume.docx": "/theneverends.github.io/static/media/Ricky_Wang_Resume.0345073bb5bff0ddb1ca.docx",
     "index.html": "/theneverends.github.io/index.html",
     "main.aca9216e.css.map": "/theneverends.github.io/static/css/main.aca9216e.css.map",
-    "main.15288f2f.js.map": "/theneverends.github.io/static/js/main.15288f2f.js.map",
+    "main.bcebe273.js.map": "/theneverends.github.io/static/js/main.bcebe273.js.map",
     "787.d302bc05.chunk.js.map": "/theneverends.github.io/static/js/787.d302bc05.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aca9216e.css",
-    "static/js/main.15288f2f.js"
+    "static/js/main.bcebe273.js"
   ]
 }
