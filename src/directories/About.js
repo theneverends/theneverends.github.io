@@ -1,13 +1,15 @@
 import React from "react";
 import "./About.css";
 import Typical from "react-typical";
+import Resume from "../Ricky_Wang_Resume.docx";
+import Mypng from "../me.png";
 
 export default function About() {
   return (
     <section id="about" className="about">
       <div className="layout2">
         <div className="about-right">
-          <img src="me.png" alt="" />
+          <img src={Mypng} alt="" />
         </div>
         <h1 className="title">About Me</h1>
         <div className="about-left">
@@ -55,7 +57,7 @@ export default function About() {
             />
           </p>
           <button>
-            <a href="Ricky_Wang_Resume.docx" download="Ricky_Wang_Resume.docx">
+            <a href={Resume} download="Ricky_Wang_Resume.docx">
               Take a look at my resume
             </a>
           </button>
